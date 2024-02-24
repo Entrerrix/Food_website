@@ -11,6 +11,7 @@ import { RecipeDetailComponent } from "./recipes/recipes-detail/recipe-detail.co
 import { RecipeItemComponent } from "./recipes/recipe-list/recipe-item/recipe-item.component";
 import { ShoppingListComponent } from "./shopping-list/shopping-list.component";
 import { ShoppingEditComponent } from "./shopping-list/shopping-edit/shopping-edit.component";
+import { SidebarComponent } from "./sidebar/sidebar.component";
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ShoppingEditComponent } from "./shopping-list/shopping-edit/shopping-ed
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
+    SidebarComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
