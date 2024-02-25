@@ -1,39 +1,9 @@
-/* Content */
-.content {
-  padding: 20px;
-}
-.list-group-item h4 {
-  margin-top: 0;
-}
-/* List Group Items */
-.list-group-item {
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-}
+/*.row .col-md-9 {
+  float: right;
+  background-color: lightblue;
+}*/
 
-.list-group-item h4 {
-  margin-top: 0;
-}
-
-.list-group-item img {
-  max-height: 50px;
-}
-
-/* Row Headings */
-.row h3 {
-  margin-top: 20px;
-}
-
-/* Optional: Adjustments for smaller screens */
-@media (max-width: 768px) {
-  .col-xs-12 {
-    padding: 0;
-  }
-}
-
-/* Optional: Add hover effect */
-.list-group-item:hover {
-  background-color: #f5f5f5;
+.recipe {
+  flex: 3;
+  width: 500px;
 }
